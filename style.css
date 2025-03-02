@@ -190,3 +190,56 @@ ul li span:hover{
         line-height: 25px;
     }
 }
+@media (max-width: 320px) {
+    .todo-app {
+        width: 90%;
+        padding: 30px 20px 50px;
+        margin: 50px auto 10px;
+    }
+
+    .todo-app h2 {
+        font-size: 18px;
+    }
+
+    .todo-app h2 img {
+        width: 24px;
+    }
+
+    .row {
+        padding-left: 10px;
+        flex-direction: column;
+        border-radius: 20px;
+    }
+
+    input {
+        padding: 8px;
+        font-size: 12px;
+        width: 100%;
+    }
+
+    button {
+        padding: 12px 30px;
+        font-size: 14px;
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    ul li {
+        font-size: 14px;
+        padding: 10px 8px 10px 40px;
+    }
+
+    ul li::before {
+        height: 22px;
+        width: 22px;
+        top: 10px;
+        left: 5px;
+    }
+
+    ul li span {
+        width: 30px;
+        height: 30px;
+        font-size: 18px;
+        line-height: 30px;
+    }
+}
